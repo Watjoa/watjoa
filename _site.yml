@@ -15,6 +15,8 @@ navbar:
     - text: CaviR statistics
       icon: fa-bar-chart
       href: https://www.cavirstatistics.com
+    - icon: fa fa-user
+      href: download/cv-master/cv.html
 #    - icon: fa-newspaper-o fa-lg
 #      href: press.html       
      # href: contact.html
