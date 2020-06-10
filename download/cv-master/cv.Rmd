@@ -101,7 +101,7 @@ contact_info %>%
 Research {#research}
 --------------------------------------------------------------------------------
 
-See all publications, posters and talks at: <br /> [antoinesoetewey.com/research](https://www.antoinesoetewey.com/research/)
+See all publications, posters and talks at: <br /> [watjoa.com/research](https://watjoa.github.io/watjoa/Research.html)
 
 <!-- Software {#open-source} -->
 <!-- -------------------------------------------------------------------------------- -->
