@@ -5,14 +5,16 @@ navbar:
   right:
 #    - icon: fa-check-square-o fa-lg
 #      href: questionnaires.html
-#    - icon: fa-bar-chart fa-lg
- #     href: CaviRstatistics_application.html 
+    - text: Research
+      icon: fa-book
+      href: Research.html 
     #  menu:
     #  - text: Ecología BIO231c 
     #  - text: Modulo 1.1
     #    href: about.html
- #   - icon: fa fa-code
-  #    href: Rcoding.html   
+    - text: CaviR statistics
+      icon: fa-bar-chart
+      href: https://www.cavirstatistics.com
 #    - icon: fa-newspaper-o fa-lg
 #      href: press.html       
      # href: contact.html
@@ -23,4 +25,5 @@ navbar:
     - icon: fa-twitter fa-lg
       href: https://twitter.com/Watjoa
 output:
-  html_document
+  html_document:
+    css: landing-page.css

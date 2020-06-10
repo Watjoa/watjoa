@@ -1,30 +1,38 @@
 ---
-title: "index"
-author: "Joachim Waterschoot"
-date: "6/10/2020"
-output: html_document
+title: "Homepage"
+output:
+  html_document:
+    theme: cosmo
 ---
+<br>
+<br>
+<br>
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+<center>
+_"Whether we are speaking of this sea plant or an oak tree, of an ape or a man, we will do well to recognize that life is an active process, not a passive one. Whether the stimulus arises from within or without, whether the environment is favorable or unfavorable, the behaviors of an organism can be counted on to be in the direction of maintaining, enhancing, and reproducing itself._
+<br>
+<br>
+_This is the very nature of the process we call life."_
 
-## R Markdown
+-Rogers (1963, p. 3)
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+![](part.png)
+</center>
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+&nbsp;
+<hr />
+<p style="text-align: center;">A work by <a href="www.ugent.be/dodentocht">Joachim Waterschoot</a></p>
+<p style="text-align: center;"><span style="color: #808080;"><em>Joachim.Waterschoot@ugent.be</em></span></p>
 
-```{r cars}
-summary(cars)
-```
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Including Plots
+<!-- Add font awesome icons -->
+<p style="text-align: center;">
+    <a href="https://twitter.com/watjoa" class="fa fa-twitter"></a>
+    <a href="https://www.linkedin.com/in/watjoa/" class="fa fa-linkedin"></a>
+    <a href="https://github.com/watjoa/" class="fa fa-github"></a>
+</p>
 
-You can also embed plots, for example:
+&nbsp;
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="10 June 2020" />
+
+
+<title>Research</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="landing-page.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Watjoa</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="Research.html">
+    <span class="fa fa-book"></span>
+     
+    Research
+  </a>
+</li>
+<li>
+  <a href="https://www.cavirstatistics.com">
+    <span class="fa fa-bar-chart"></span>
+     
+    CaviR statistics
+  </a>
+</li>
+<li>
+  <a href="https://www.vopspsy.ugent.be/mail/mailme.php?own=Joachim%20Waterschoot">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/Watjoa">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Research</h1>
+<h4 class="author">10 June 2020</h4>
+
+</div>
+
+
+<p><br></p>
+<div id="scientific-curriculum" class="section level2">
+<h2>Scientific curriculum</h2>
+<hr />
+<div id="section" class="section level3">
+<h3>2020</h3>
+<ul>
+<li><strong>Waterschoot, J.</strong>, Van der Kaap-Deeder, J., &amp; Vansteenkiste, M. (2020). The Role of Competence-related Attentional Bias and Resilience in Restoring Thwarted Feelings of Competence. <em>Motivation and Emotion. Special issue: Advancing the Field of Basic Psychological Needs</em>, pp 1-17.DOI: <a href="https://doi.org/10.1007/s11031-019-09776-8" class="uri">https://doi.org/10.1007/s11031-019-09776-8</a> <a href="download/sciencs/Waterschoot2020_Article_TheRoleOfCompetence-relatedAtt.pdf">Download <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+</ul>
+</div>
+<div id="section-1" class="section level3">
+<h3>2019</h3>
+<ul>
+<li><p>De Muynck, G., Soenens, B., <strong>Waterschoot, J.</strong>, Degrauewe, L., Vande Broek, G., &amp; Vansteenkiste, M. (2019). Towards a More Refined Insight in the Critical Motivating Features of Choice: An Experimental Study among Recreational Rope Skippers. <em>Journal of Psychology of Sport &amp; Exercise, 45</em>, pp. 101561. DOI: <a href="https://doi.org/10.1016/j.psychsport.2019.101561" class="uri">https://doi.org/10.1016/j.psychsport.2019.101561</a> <a href="download/sciencs/1-s2.0-S1469029218304990-main.pdf">Download <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></p></li>
+<li><p><strong>Waterschoot, J.</strong>, Vansteenkiste, M. &amp; Soenens, B. (2019). The Effects of Experimentally Induced Choice on Elementary School Children’s Intrinsic Motivation: The Moderating Role of Indecisiveness and Teacher-Student Relatedness. <em>Journal of Experimentally Child Psychology, 188</em>. DOI: <a href="https://doi.org/10.1016/j.jecp.2019.104692" class="uri">https://doi.org/10.1016/j.jecp.2019.104692</a> <a href="download/sciencs/1-s2.0-S0022096519301110-main.pdf">Download <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></p></li>
+</ul>
+</div>
+<div id="submitted" class="section level3">
+<h3>Submitted</h3>
+<ul>
+<li>Morbée, J., Haerens, L., <strong>Waterschoot</strong>, J., &amp; Vansteenkiste, M. (submitted). Which Cyclists Manage to Cope with the Corona Crisis in a Resilient Way? The Role of Motivational Profiles. <em>Psychology of Sport &amp; Exercise</em></li>
+</ul>
+</div>
+<div id="in-progress" class="section level3">
+<h3>In progress</h3>
+<ul>
+<li>Vandenkerckhove, B., Soenens, B., <strong>Waterschoot, J.</strong>, Nasso, S., De Raedt, R., Luyten, P., &amp; Vansteenkiste, M. (in progress). The role of dependency in needs-based responses to social exclusion. Manuscript in preparation.<br />
+</li>
+<li><strong>Waterschoot, J.</strong>, Vansteenkiste, M., &amp; Soenens, B. (in progress). Life ain’t no ponyfarm: examining the effectiveness of different self-motivating strategies when facing boring activites.<br />
+</li>
+<li><strong>Waterschoot, J.</strong>, Vansteenkiste, M., &amp; Soenens, B. (in progress). Towards a refined insight in the shifts in adolescents’ motivational profiles: A longitudinal study.<br />
+</li>
+<li><strong>Waterschoot, J.</strong> &amp; Soenens, B. (in progress). Parental effects of reward on children’s motivation compared to autonomy-support and psychological control.<br />
+</li>
+<li><strong>Waterschoot, J.</strong>, Van der Kaap-Deeder, J., Swinnen, K. &amp; Vansteenkiste, m. (in progress). Parents and their smartphone: an overview of collateral effects on psychological availability .</li>
+</ul>
+<p><br></p>
+</div>
+</div>
+<div id="master-theses-supervision" class="section level2">
+<h2>Master theses supervision</h2>
+<hr />
+<div id="current" class="section level3">
+<h3>Current</h3>
+<ul>
+<li><p>Sercu, Jade (current). “Wie zoet is krijgt lekkers, wie stout is telefoon”: hoe ouders de Sint gebruiken om kinderen ‘af te flinken’. <em>Niet-gepubliceerde Master Thesis, Universiteit Gent.</em> (Promotor: M. Vansteenkiste)</p></li>
+<li><p>Van Houtte, Camille (current). De Dodentochtstudie: de ervaring vanuit het oogpunt van de wandelaar via diepte-interviews. <em>Niet-gepubliceerde Master Thesis, Universiteit Gent.</em> (Promotor: M. Vansteenkiste)</p></li>
+<li><p>Hernandez, Nicaurys (current). Vervelend, maar toch wervelend: hoe we verveling definiëren via emotieregulatie en onze eigen motivatie aanpakken. <em>Niet-gepubliceerde Master Thesis, Universiteit Gent.</em> (Promotor: M. Vansteenkiste)</p></li>
+<li><p>De Quick, Lotte (current). Even stilstaan in het hier en nu: waarom deze taak als vervelend aanvoelt. De rol van mindfulness in onze capaciteit tot zelfmotivatie. <em>Niet-gepubliceerde Master Thesis, Universiteit Gent.</em> (Promotor: M. Vansteenkiste)</p></li>
+<li><p>Bruteyn, Sarah (current). In welke mate bepaal ik zelf hoe ik vervelende taken in het leven aanpak? Een studie naar de rol van contextuele factoren bij onze capaciteit tot zelfmotivatie. <em>Niet-gepubliceerde Master Thesis, Universiteit Gent.</em> (Promotor: M. Vansteenkiste)</p></li>
+<li><p>Vandecasteele, Liesanne (current). Even stilstaan in het hier en nu: waarom deze taak als vervelend aanvoelt. De rol van mindfulness in onze capaciteit tot zelfmotivatie. <em>Niet-gepubliceerde Master Thesis, Universiteit Gent.</em> (Promotor: M. Vansteenkiste)</p></li>
+</ul>
+</div>
+<div id="section-2" class="section level3">
+<h3>2020</h3>
+<ul>
+<li><p>De Lille, Maud (2020). De motivatie achter de Dodentocht: een heldentocht of een lijdensweg? <em>Niet-gepubliceerde Master Thesis, Universiteit Gent.</em> (Promotor: M. Vansteenkiste)</p></li>
+<li><p>Dewilde, Bjarne (2020). Even stilstaan in het hier en nu: waarom deze taak als vervelend aan- voelt. De rol van mindfulness in onze capaciteit tot zelfmotivatie. <em>Niet-gepubliceerde Master Thesis, Universiteit Gent.</em> (Promotor: M. Vansteenkiste)</p></li>
+<li><p>Koekelkoren, Juno (2020). Mijn doelen in een deelname aan de Dodentocht: een kwalitatieve analyse <em>Niet-gepubliceerde Master Thesis, Universiteit Gent.</em> (Promotor: M. Vansteenkiste)</p></li>
+<li><p>Wydooghe, Lore (2020). “Hoe motiveer ik mezelf voor een vervelende taak?”: een onderzoek naar de wortels van zelf-motivatie. <em>Niet-gepubliceerde Master Thesis, Universiteit Gent.</em> (Promotor: M. Vansteenkiste)</p></li>
+<li><p>Zels, Julie (2020). De motivatie achter de Dodentocht: een heldentocht of een lijdensweg? <em>Niet-gepubliceerde Master Thesis, Universiteit Gent.</em> (Promotor: M. Vansteenkiste)</p></li>
+<li><p>Casteleyn, Demi (2020). “Help, ik doe dit écht niet graag!”: hoe ouders de capaciteit tot zelf-motivatie kunnen versterken.&quot; <em>Niet-gepubliceerde Master Thesis, Universiteit Gent.</em> (Promotor: M. Vansteenkiste)</p></li>
+</ul>
+</div>
+<div id="section-3" class="section level3">
+<h3>2019</h3>
+<ul>
+<li>Swinnen, Kato (2019). “Smartphonenende” ouders: hoe beschikbaar zijn ze voor hun kinderen en hoe voeden ze hun kinderen op? <em>Niet-gepubliceerde Master Thesis, Universiteit Gent.</em> (Promotor: M. Vansteenkiste) <a href="download/sciencs/MASTERPROEF%20II_Kato%20Swinnen_Smartphonende%20ouders%20Hoe%20beschikbaar%20zijn%20ze%20voor%20hun%20kinderen%20en%20hoe%20voeden%20ze%20hun%20kinderen%20op.pdf">Download <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+</ul>
+</div>
+<div id="section-4" class="section level3">
+<h3>2018</h3>
+<ul>
+<li>Vermeire, Ephraïm (2018). Mag plezier bestaan in de klas? Een differentiatie van plezier en de samenhang met aspecten van zelfbeheersing in klassikale context. <em>Niet-gepubliceerde Master Thesis, Universiteit Gent.</em> (Promotor: M. Vansteenkiste) <a href="download/sciencs/Ephraïm%20Vermeire%20(2018)%20-%20Twee%20vormen%20van%20plezier%20en%20zelfbeheersing.pdf">Download <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+</ul>
+<p><br></p>
+</div>
+</div>
+<div id="conference-proceedings" class="section level2">
+<h2>Conference proceedings</h2>
+<hr />
+<div id="section-5" class="section level3">
+<h3>2020</h3>
+<ul>
+<li><strong>Waterschoot, J.</strong>, Soenens, B., Vermote, B., &amp; Vansteenkiste, M. (POSTPONED). <em>How to increase one’s own motivation when performing a boring activity? A multi-method approach.</em> Paper presented at the tenth SELF International Conference, June 2020, Quebec, Canada<br />
+</li>
+<li><strong>Waterschoot, J.</strong>, Soenens, B., Vermote, B., &amp; Vansteenkiste, M. (POSTPONED). <em>How to increase one’s own motivation when performing a boring activity? A multi-method approach.</em> Paper presented at the International Conference on Motivation, September 2020, Dresden, Germany.<br />
+</li>
+<li><strong>Waterschoot, J.</strong>, Soenens, B., Vermote, B., &amp; Vansteenkiste, M. (POSTPONED). <em>How to increase one’s own motivation when performing a boring activity? A multi-method approach.</em> Paper presented at the International Conference on Motivation, Invited Interdisciplinary Symposia ‘MetaMotivation - MetaReasoning’ (organiser: Kou Murayama &amp; Rakefet Ackerman), September 2020, Dresden, Germany.<br />
+</li>
+<li>Vermote, B., Vansteenkiste, M., Soenens, B., <strong>Waterschoot, J.</strong>, &amp; Beyers, W. (POSTPONED). <em>Student life as a period of conflict or harmony between activities? The role of an Authentic Inner Compass.</em> Paper presented at the International Conference on Motivation, September 2020, Dresden, Germany</li>
+</ul>
+</div>
+<div id="section-6" class="section level3">
+<h3>2019</h3>
+<ul>
+<li><strong>Waterschoot, J.</strong>, Vansteenkiste, M., &amp; Soenens, B. (2019, May). <em>Life ain’t no ponyfarm: examining the effectiveness of different self-motivating strategies when facing boring activites.</em> Poster presented at the SDT conference, Egmond aan Zee, The Netherlands.<br />
+</li>
+<li><strong>Waterschoot, J.</strong>, Vansteenkiste, M., Verscheuren, K., &amp; Soenens, B. (2019, August). <em>Towards a refined insight in the shifts in adolescents’ motivational profiles: A longitudinal study.</em> Paper presented at the EARLI conference, August 2019, Aachen, Germany.<br />
+</li>
+<li><strong>Waterschoot, J.</strong>, Vansteenkiste, M., Verscheuren, K., &amp; Soenens, B. (2019, September). <em>Towards a refined insight in the shifts in adolescents’ motivational profiles: A longitudinal study.</em> Paper presented at the European Conference of Developmental Psychology, September 2019, Athene, Greece.</li>
+</ul>
+</div>
+<div id="section-7" class="section level3">
+<h3>2018</h3>
+<ul>
+<li><strong>Waterschoot, J.</strong>, Soenens, B., &amp; Vansteenkiste, M. (2018, July). <em>Effects of Experimentally Induced Choice on Intrinsic Motivation in Middle Childhood.</em> Paper presented at the JURE Conference 2018 at the University of Antwerp, Antwerp, Belgium.<br />
+</li>
+<li><strong>Waterschoot, J.</strong>, Van-der Kaap Deeder, J., &amp; Vansteenkiste, M. (2018, August). <em>How do People Handle Competence Frustration?: The Role of Resilience and Attentional Bias.</em> Paper presented at the International Conference on Motivation (ICM) at the Aarhus University, Aarhus, Denmark.<br />
+</li>
+<li><strong>Waterschoot, J.</strong>, Soenens, B., &amp; Vansteenkiste, M. (2018, August). <em>Effects of Experimentally Induced Choice on Intrinsic Motivation in Middle Childhood.</em> Paper presented at the International Conference on Motivation (ICM) at the Aarhus University, Denmark.<br />
+</li>
+<li>Aelterman, N., Soenens, B., Vansteenkiste, M., <strong>Waterschoot, J.</strong>, &amp; Haerens, L. (2018, August). <em>Effects of Teachers’ Style of Rule Setting on Students’ Psychological: Needs and Behavioral Responses.</em> Paper presented at the International Conference on Motivation (ICM) at the Aarhus University, Denmark.<br />
+</li>
+<li><strong>Waterschoot, J.</strong>, Van-der Kaap Deeder, J., &amp; Vansteenkiste, M. (2018, September). <em>The Role of Competence-related Attentional Bias and Resilience in Restoring Thwarted Feelings of Competence.</em> Paper presented at the EARA congress at Ghent University, Ghent, Belgium<br />
+</li>
+<li>Vandenkerckhove, B., Soenens, B., Nasso, S., <strong>Waterschoot, J.</strong>, De Raedt, R., Luyten, P., &amp; Vansteenkiste, M. (2018, July). <em>Effects of social rejection in dependent individuals: an experimental study with the cyberball paradigm.</em> Poster presented at the ISSBD Conference (International Society for the Study of Behavioural Development), Gold Coast, Australia.</li>
+</ul>
+<p><br></p>
+</div>
+</div>
+<div id="lectures" class="section level2">
+<h2>Lectures</h2>
+<hr />
+<ul>
+<li><em>12/03/2015</em>: ‘A Choice Experiment among elementary school children’, students Occupational Science, Artevelde School, Ghent<br />
+</li>
+<li><em>20/03/2018</em>: ‘Motivation from a Self-Determination theory perspective’, students, teachers and parents of Da Vinci Campus, Ronse<br />
+</li>
+<li><em>15/10/2019</em>: ‘An integrative overview of motivation’, students of the Hult International Business School, London<br />
+</li>
+<li><em>11/02/2020</em>: ‘Wanneer de mentale brandstof de motor doet wandelen: presentatie Dodentochtstudie op de werkvloer’, HR groep, Kortrijk</li>
+<li><em>05/03/2020</em>: ‘Wanneer de mentale brandstof de motor doet wandelen: presentatie Dodentochtstudie’, open publiek, FPPW, Universiteit Gent, Gent</li>
+</ul>
+ 
+<hr />
+<p style="text-align: center;">
+A work by <a href="www.ugent.be/dodentocht">Joachim Waterschoot</a>
+</p>
+<p style="text-align: center;">
+<span style="color: #808080;"><em><a href="mailto:Joachim.Waterschoot@ugent.be" class="email">Joachim.Waterschoot@ugent.be</a></em></span>
+</p>
+<!-- Add icon library -->
+<p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></p>
+<!-- Add font awesome icons -->
+<p style="text-align: center;">
+<a href="https://twitter.com/watjoa" class="fa fa-twitter"></a> <a href="https://www.linkedin.com/in/watjoa/" class="fa fa-linkedin"></a> <a href="https://github.com/watjoa/" class="fa fa-github"></a>
+</p>
+<p> </p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

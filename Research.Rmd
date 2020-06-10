@@ -1,0 +1,139 @@
+---
+title: "Research"
+author: " `r format(Sys.time(), '%d %B %Y')`"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#library(epuRate)
+library(rmarkdown)
+```
+  
+<br>
+
+## Scientific curriculum
+***
+
+### 2020
+  
+* **Waterschoot, J.**, Van der Kaap-Deeder, J., & Vansteenkiste, M. (2020). The Role of Competence-related Attentional Bias and Resilience in Restoring Thwarted Feelings of Competence. *Motivation and Emotion. Special issue: Advancing the Field of Basic Psychological Needs*, pp 1-17.DOI: https://doi.org/10.1007/s11031-019-09776-8 [Download <i class="fa fa-file-pdf-o" aria-hidden="true"></i>](download/sciencs/Waterschoot2020_Article_TheRoleOfCompetence-relatedAtt.pdf)
+
+### 2019   
+
+* De Muynck, G., Soenens, B., **Waterschoot, J.**, Degrauewe, L., Vande Broek, G., & Vansteenkiste, M. (2019). Towards a More Refined Insight in the Critical Motivating Features of Choice: An Experimental Study among Recreational Rope Skippers. *Journal of Psychology of Sport & Exercise, 45*, pp. 101561. DOI: https://doi.org/10.1016/j.psychsport.2019.101561 [Download <i class="fa fa-file-pdf-o" aria-hidden="true"></i>](download/sciencs/1-s2.0-S1469029218304990-main.pdf)  
+
+* **Waterschoot, J.**, Vansteenkiste, M. & Soenens, B. (2019). The Effects of Experimentally Induced Choice on Elementary School Children’s Intrinsic Motivation: The Moderating Role of Indecisiveness and Teacher-Student Relatedness. *Journal of Experimentally Child Psychology, 188*. DOI: https://doi.org/10.1016/j.jecp.2019.104692 [Download <i class="fa fa-file-pdf-o" aria-hidden="true"></i>](download/sciencs/1-s2.0-S0022096519301110-main.pdf)  
+   
+
+### Submitted   
+
+* Morbée, J., Haerens, L., **Waterschoot**, J., & Vansteenkiste, M. (submitted). Which Cyclists Manage to Cope with the Corona Crisis in a Resilient Way? The Role of Motivational Profiles. *Psychology of Sport & Exercise*
+    
+### In progress  
+
+  - Vandenkerckhove, B., Soenens, B., **Waterschoot, J.**, Nasso, S.,  De Raedt, R., Luyten, P., & Vansteenkiste, M. (in progress). The role of dependency in needs-based responses to social exclusion. Manuscript in preparation.    
+  - **Waterschoot, J.**, Vansteenkiste, M., & Soenens, B. (in progress). Life ain’t no ponyfarm: examining the effectiveness of different self-motivating strategies when facing boring activites.  
+  - **Waterschoot, J.**, Vansteenkiste, M., & Soenens, B. (in progress). Towards a refined insight in the shifts in adolescents’ motivational profiles: A longitudinal study.  
+  - **Waterschoot, J.** & Soenens, B. (in progress). Parental effects of reward on children's motivation compared to autonomy-support and psychological control.  
+  - **Waterschoot, J.**, Van der Kaap-Deeder, J., Swinnen, K. & Vansteenkiste, m. (in progress). Parents and their smartphone: an overview of collateral effects on psychological availability .    
+  
+<br>
+
+## Master theses supervision
+***
+
+### Current
+
+  - Sercu, Jade (current). “Wie zoet is krijgt lekkers, wie stout is telefoon”: hoe ouders de Sint gebruiken om kinderen ‘af te flinken’. *Niet-gepubliceerde Master Thesis, Universiteit Gent.* (Promotor: M. Vansteenkiste)
+
+  - Van Houtte, Camille (current). De Dodentochtstudie: de ervaring vanuit het oogpunt van de wandelaar via diepte-interviews. *Niet-gepubliceerde Master Thesis, Universiteit Gent.* (Promotor: M. Vansteenkiste)
+
+  - Hernandez, Nicaurys (current). Vervelend, maar toch wervelend: hoe we verveling definiëren via emotieregulatie en onze eigen motivatie aanpakken. *Niet-gepubliceerde Master Thesis, Universiteit Gent.* (Promotor: M. Vansteenkiste)
+
+  - De Quick, Lotte (current). Even stilstaan in het hier en nu: waarom deze taak als vervelend aanvoelt. De rol van mindfulness in onze capaciteit tot zelfmotivatie. *Niet-gepubliceerde Master Thesis, Universiteit Gent.* (Promotor: M. Vansteenkiste)
+
+  - Bruteyn, Sarah (current). In welke mate bepaal ik zelf hoe ik vervelende taken in het leven aanpak? Een studie naar de rol van contextuele factoren bij onze capaciteit tot zelfmotivatie. *Niet-gepubliceerde Master Thesis, Universiteit Gent.* (Promotor: M. Vansteenkiste)
+
+  - Vandecasteele, Liesanne (current). Even stilstaan in het hier en nu: waarom deze taak als vervelend aanvoelt. De rol van mindfulness in onze capaciteit tot zelfmotivatie. *Niet-gepubliceerde Master Thesis, Universiteit Gent.* (Promotor: M. Vansteenkiste)
+
+### 2020
+
+  - De Lille, Maud (2020). De motivatie achter de Dodentocht: een heldentocht of een lijdensweg? *Niet-gepubliceerde Master Thesis, Universiteit Gent.* (Promotor: M. Vansteenkiste)
+
+  - Dewilde, Bjarne (2020). Even stilstaan in het hier en nu: waarom deze taak als vervelend aan- voelt. De rol van mindfulness in onze capaciteit tot zelfmotivatie. *Niet-gepubliceerde Master Thesis, Universiteit Gent.* (Promotor: M. Vansteenkiste)
+
+  - Koekelkoren, Juno (2020). Mijn doelen in een deelname aan de Dodentocht: een kwalitatieve analyse *Niet-gepubliceerde Master Thesis, Universiteit Gent.* (Promotor: M. Vansteenkiste)
+
+  - Wydooghe, Lore (2020). “Hoe motiveer ik mezelf voor een vervelende taak?”: een onderzoek naar de wortels van zelf-motivatie. *Niet-gepubliceerde Master Thesis, Universiteit Gent.* (Promotor: M. Vansteenkiste)
+
+  - Zels, Julie (2020). De motivatie achter de Dodentocht: een heldentocht of een lijdensweg? *Niet-gepubliceerde Master Thesis, Universiteit Gent.* (Promotor: M. Vansteenkiste)
+
+  - Casteleyn, Demi (2020). “Help, ik doe dit écht niet graag!”: hoe ouders de capaciteit tot zelf-motivatie kunnen versterken." *Niet-gepubliceerde Master Thesis, Universiteit Gent.* (Promotor: M. Vansteenkiste)
+
+### 2019
+
+  - Swinnen, Kato (2019). “Smartphonenende” ouders: hoe beschikbaar zijn ze voor hun kinderen en hoe voeden ze hun kinderen op? *Niet-gepubliceerde Master Thesis, Universiteit Gent.* (Promotor: M. Vansteenkiste) [Download <i class="fa fa-file-pdf-o" aria-hidden="true"></i>](download/sciencs/MASTERPROEF II_Kato Swinnen_Smartphonende ouders Hoe beschikbaar zijn ze voor hun kinderen en hoe voeden ze hun kinderen op.pdf)  
+
+### 2018
+
+  - Vermeire, Ephraïm (2018). Mag plezier bestaan in de klas? Een differentiatie van plezier en de samenhang met aspecten van zelfbeheersing in klassikale context. *Niet-gepubliceerde Master Thesis, Universiteit Gent.* (Promotor: M. Vansteenkiste) [Download <i class="fa fa-file-pdf-o" aria-hidden="true"></i>](download/sciencs/Ephraïm Vermeire (2018) - Twee vormen van plezier en zelfbeheersing.pdf)  
+
+<br>
+
+## Conference proceedings
+***
+
+### 2020
+  - **Waterschoot, J.**, Soenens, B., Vermote, B., & Vansteenkiste, M. (POSTPONED). *How to increase one's own motivation when performing a boring activity? A multi-method approach.* Paper presented at the tenth SELF International Conference, June 2020, Quebec, Canada  
+  - **Waterschoot, J.**, Soenens, B., Vermote, B., & Vansteenkiste, M. (POSTPONED). *How to increase one's own motivation when performing a boring activity? A multi-method approach.* Paper presented at the International Conference on Motivation, September 2020, Dresden, Germany.  
+  - **Waterschoot, J.**, Soenens, B., Vermote, B., & Vansteenkiste, M. (POSTPONED). *How to increase one's own motivation when performing a boring activity? A multi-method approach.* Paper presented at the International Conference on Motivation, Invited Interdisciplinary Symposia 'MetaMotivation - MetaReasoning' (organiser: Kou Murayama & Rakefet Ackerman), September 2020, Dresden, Germany.  
+  - Vermote, B., Vansteenkiste, M., Soenens, B., **Waterschoot, J.**, & Beyers, W. (POSTPONED). *Student life as a period of conflict or harmony between activities? The role of an Authentic Inner Compass.* Paper presented at the International Conference on Motivation, September 2020, Dresden, Germany  
+  
+### 2019  
+  - **Waterschoot, J.**, Vansteenkiste, M., & Soenens, B. (2019, May). *Life ain’t no ponyfarm: examining the effectiveness of different self-motivating strategies when facing boring activites.* Poster presented at the SDT conference, Egmond aan Zee, The Netherlands.   
+  - **Waterschoot, J.**, Vansteenkiste, M., Verscheuren, K., & Soenens, B. (2019, August). *Towards a refined insight in the shifts in adolescents’ motivational profiles: A longitudinal study.* Paper presented at the EARLI conference, August 2019, Aachen, Germany.  
+  - **Waterschoot, J.**, Vansteenkiste, M., Verscheuren, K., & Soenens, B. (2019, September). *Towards a refined insight in the shifts in adolescents’ motivational profiles: A longitudinal study.* Paper presented at the European Conference of Developmental Psychology, September 2019, Athene, Greece.
+  
+### 2018
+  - **Waterschoot, J.**, Soenens, B., & Vansteenkiste, M. (2018, July). *Effects of Experimentally Induced Choice on Intrinsic Motivation in Middle Childhood.* Paper presented at the JURE Conference 2018 at the University of Antwerp, Antwerp, Belgium.   
+  - **Waterschoot, J.**, Van-der Kaap Deeder, J., & Vansteenkiste, M. (2018, August). *How do People Handle Competence Frustration?: The Role of Resilience and Attentional Bias.* Paper presented at the International Conference on Motivation (ICM) at the Aarhus University, Aarhus, Denmark.  
+  - **Waterschoot, J.**, Soenens, B., & Vansteenkiste, M. (2018, August). *Effects of Experimentally Induced Choice on Intrinsic Motivation in Middle Childhood.* Paper presented at the International Conference on Motivation (ICM) at the Aarhus University, Denmark.  
+  - Aelterman, N., Soenens, B., Vansteenkiste, M., **Waterschoot, J.**, & Haerens, L. (2018, August). *Effects of Teachers’ Style of Rule Setting on Students’ Psychological: Needs and Behavioral Responses.* Paper presented at the International Conference on Motivation (ICM) at the Aarhus University, Denmark.  
+  - **Waterschoot, J.**, Van-der Kaap Deeder, J., & Vansteenkiste, M. (2018, September). *The Role of Competence-related Attentional Bias and Resilience in Restoring Thwarted Feelings of Competence.* Paper presented at the EARA congress at Ghent University, Ghent, Belgium  
+  - Vandenkerckhove, B., Soenens, B., Nasso, S., **Waterschoot, J.**, De Raedt, R., Luyten, P., & Vansteenkiste, M. (2018, July). *Effects of social rejection in dependent individuals: an experimental study with the cyberball paradigm.* Poster presented at the ISSBD Conference (International Society for the Study of Behavioural Development), Gold Coast, Australia.  
+
+<br>
+
+## Lectures  
+***
+
+  - *12/03/2015*: 'A Choice Experiment among elementary school children', students Occupational Science, Artevelde School, Ghent  
+  - *20/03/2018*: 'Motivation from a Self-Determination theory perspective', students, teachers and parents of Da Vinci Campus, Ronse    
+  - *15/10/2019*: 'An integrative overview of motivation', students of the Hult International Business School, London  
+  - *11/02/2020*: 'Wanneer de mentale brandstof de motor doet wandelen: presentatie Dodentochtstudie op de werkvloer', HR groep, Kortrijk
+  - *05/03/2020*: 'Wanneer de mentale brandstof de motor doet wandelen: presentatie Dodentochtstudie', open publiek, FPPW, Universiteit Gent, Gent  
+  
+
+&nbsp;
+<hr />
+<p style="text-align: center;">A work by <a href="www.ugent.be/dodentocht">Joachim Waterschoot</a></p>
+<p style="text-align: center;"><span style="color: #808080;"><em>Joachim.Waterschoot@ugent.be</em></span></p>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<p style="text-align: center;">
+    <a href="https://twitter.com/watjoa" class="fa fa-twitter"></a>
+    <a href="https://www.linkedin.com/in/watjoa/" class="fa fa-linkedin"></a>
+    <a href="https://github.com/watjoa/" class="fa fa-github"></a>
+</p>
+
+&nbsp;
+
