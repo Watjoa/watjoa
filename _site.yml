@@ -1,0 +1,26 @@
+name: "Watjoa"
+output_dir: "."
+navbar:
+  title: "Watjoa"
+  right:
+#    - icon: fa-check-square-o fa-lg
+#      href: questionnaires.html
+#    - icon: fa-bar-chart fa-lg
+ #     href: CaviRstatistics_application.html 
+    #  menu:
+    #  - text: Ecología BIO231c 
+    #  - text: Modulo 1.1
+    #    href: about.html
+ #   - icon: fa fa-code
+  #    href: Rcoding.html   
+#    - icon: fa-newspaper-o fa-lg
+#      href: press.html       
+     # href: contact.html
+  #  - text: "About"
+   #   href: about.html
+    - icon: fa-envelope fa-lg
+      href: https://www.vopspsy.ugent.be/mail/mailme.php?own=Joachim%20Waterschoot
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/Watjoa
+output:
+  html_document
