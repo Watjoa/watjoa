@@ -11,10 +11,10 @@ navbar:
     #  menu:
     #  - text: Ecología BIO231c 
     #  - text: Modulo 1.1
-    #    href: about.html
+    #    href: about.htmlEn 
     - text: CaviR statistics
       icon: fa-bar-chart
-      href: http://www.cavirstatistics.com/
+      href: https://watjoa.github.io/CaviRstatistics/
     - text: CV
       icon: fa fa-user
       href: download/cv-master/cv.html
